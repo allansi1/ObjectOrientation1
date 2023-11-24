@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="maPileInt.MaPileInt"/>
+    <fullyQualifiedTypeName name="java.util.DoubleSummaryStatistics"/>
+    <fullyQualifiedTypeName name="pack.Outer.A"/>
+    <fullyQualifiedTypeName name="pack.Outer.B"/>
+    <fullyQualifiedTypeName name="eleve.eleve"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collector"/>
+    <fullyQualifiedTypeName name="c.student.Student.NameComparator2"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="b.withAbstractClass.Functional2"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="a.singleton.Singleton"/>
+    <fullyQualifiedTypeName name="b.lazyInitSingleton.Singleton"/>
+    <fullyQualifiedTypeName name="a.withAbstractClass.Rectangle"/>
+    <fullyQualifiedTypeName name="a.withAbstractClass.ColorPolygon"/>
+    <fullyQualifiedTypeName name="a.withAbstractClass.Colors"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,50 @@
+
+
+Les paquets principaux: 
+
+a.student --> La classe Student avec sa classe d'exception StudentDataException. 
+              Les objets de Student ne sont pas triables.
+a.main --> Main1: classe avec le programme pour tester la classe Student et ses exceptions. 
+
+b.student --> La classe Student (avec sa classe d'exception StudentDataException) ajoutée d'un ordre défaut (Comparable). 
+              Les objets de Student sont maintenant triables, mais seulement selon l'ordre défaut.
+b.main --> On garde Main1, et on ajoute Main2: classe avec le programme pour tester la classe Student et son ordre defaut.
+
+c.student --> La classe Student (avec sa classe d'exception StudentDataException) ajoutée d'un ordre défaut (Comparable) et
+              ajoutée de deux ordres secondaires (Comparator). 
+              Les objets de Student sont maintenant triables de trois façons différentes. 
+c.main --> On garde Main1, Main2 et on ajoute Main3: classe avec le programme pour tester la classe Student, son ordre défaut et 
+           ses deux ordres secondaires. On ajoute aussi Main4: classe avec le programme pour tester la classe Student, 
+           son ordre défaut et ses deux ordres secondaires, quand il y a des éléments null dans la collection à trier.  
+           
+Alors, on voit pas à pas la création de la classe Student et ses exceptions (paquet a.student), 
+l'ajout d'un ordre défaut (paquet b.student) et finalement, la classe Student avec ses exceptions, 
+son ordre défaut et ses deux ordres secondaires (paquet c.student). 
+
+
+Les paquets additionnels: 
+
+d.mySort --> MySort: classe avec un programme de triage en utilisant l'ordre défaut (Comparable). 
+d.main --> On garde Main1 et Main2, et on ajoute Main5: classe avec un programme pour tester MySort. 
+           Main1, Main2, et Main5 utilisent b.student. Main5 utilise aussi d.mySort.  
+           
+e.mySort --> MySort: classe avec un programme de triage en utilisant l'ordre défaut (Comparable), 
+             les ordres secondaires (Comparator) et permettant le triage en ordre inverse. 
+e.main --> On garde Main1, Main2, Main3, Main4 et Main5 et on ajoute Main6: classe avec un programme pour tester MySort. 
+           On ajouter aussi Main7: classe avec un programme pour tester MySort, quand il y a des éléments null dans la 
+           collection à trier. Ici, Main1, Main2, Main3, Main4, Main5, Main6 et Main7 utilisent c.student. 
+           En plus, Main5, Main6 et Main7 utilisent aussi e.mySort.   
+           
+La classe MySort dans d.mySort est simples et permet seulement le triage par l'ordre défaut (Comparable).
+La classe MySort dans e.mySort est plus complète et elle permet le triage par l'ordre défaut (Comparable), 
+les ordres secondaires (Comparator) et aussi triage en ordre inverse.         
+           
+ f.mySort --> MySort: le même que e.mySort plus le traitement du cas où Comparateur fourni est null.   
+ f.main --> le même que le paquet e.main plus Main8 pour tester le cas où Comparateur fourni est null.
+ 			Ici, Main5, Main6, Main7 et Main8 utilisent f.mySort.    
+  
+ g.mySort --> MySort: le même que f.mySort, mais utilisant le fait que Comparator est une interface 
+              fonctionnelle et les fonctions lambda.   
+ g.main --> le même que le paquet f.main. Ici, Main5, Main6, Main7 et Main8 utilisent g.mySort.            
+                     
+                         

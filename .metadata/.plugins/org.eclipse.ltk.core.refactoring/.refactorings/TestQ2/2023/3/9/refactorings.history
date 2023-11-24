@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;TestQ2/src/aaa&apos;&#x0D;&#x0A;- Original project: &apos;TestQ2&apos;&#x0D;&#x0A;- Destination element: &apos;TestQ2/src/aaa&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     liskov.Cercle.java&#x0D;&#x0A;     liskov.AConique.java&#x0D;&#x0A;     liskov.Elipse.java&#x0D;&#x0A;     liskov.main.java" description="Copy compilation units" destination="/src&lt;aaa" element1="/src&lt;liskov{Cercle.java" element2="/src&lt;liskov{AConique.java" element3="/src&lt;liskov{Elipse.java" element4="/src&lt;liskov{main.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1677954490561" units="4" version="1.0"/>
+</session>
